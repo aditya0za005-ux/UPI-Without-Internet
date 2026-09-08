@@ -1,0 +1,6 @@
+# IntelliJ IDEA
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
