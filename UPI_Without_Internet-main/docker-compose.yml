@@ -1,0 +1,12 @@
+services:
+  upi-mesh:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: upi-offline-mesh
+
+    ports:
+      - "8080:8080"
+
+    restart: unless-stopped
