@@ -1,6 +1,19 @@
-# IntelliJ IDEA
-.idea/
+target/
+*.class
 
-# Operating system
+.mvn/wrapper/maven-wrapper.jar
+
+*.log
+
+.idea/
+*.iml
+
+.vscode/
+
 .DS_Store
 Thumbs.db
+
+.env
+.env.*
+
+docker-compose.override.yml
